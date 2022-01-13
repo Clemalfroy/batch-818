@@ -46,8 +46,6 @@ def burger
   puts "bread"
 end
 
-
-
 burger do
   puts "Chèvre"
   puts "Galette de pomme de terre"
