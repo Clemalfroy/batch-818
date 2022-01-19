@@ -1,0 +1,15 @@
+
+#Etape 4:  Find ideas on Etsy
+#- Ajouter l'action "idea" dans la boucle
+#- Specify what you are looking for
+#- Lire le contenu du site a la bonne adresse (recuperer une string)
+#- Utiliser Nokogiri pour parser le site et recuperer le nom des objets possible
+#- Demander a l'utilisateur lequel il veut ajouter et l'ajouter a la liste
+
+#Etape 5: Stocker notre liste entre chaque execution du programme
+#- Créer un fichier de stockage
+#- A chaque fois que j'update ma liste, j'update aussi mon fichier
+#- A chaque fois que je lance mon programme, je lis le fichier et recréer ma liste en fonction de son contenu
+
+
+
