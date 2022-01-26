@@ -1,0 +1,4 @@
+id,username,password,role
+1,john,12345,manager
+2,paul,12345,rider
+3,ringo,12345,rider
