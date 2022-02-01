@@ -1,0 +1,18 @@
+<h1>Coucou</h1>
+
+<ul>
+
+<%  @restaurants.each do |resto| %>
+    <li>
+      <a href="<%= "/restaurants/#{resto.id}" %>">
+        <%= "#{resto.name}, #{resto.city}, (#{resto.rating} /10)" %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+
+<form action="/restaurants" method="post">
+  <input type="text" name="name" placeholder="Nom">
+  <input type="text" name="city" placeholder="Ville">
+  <input type="submit">
+</form>
