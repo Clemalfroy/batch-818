@@ -1,0 +1,16 @@
+.banner {
+  background-image: url('../../images/background.jpg');
+  padding: 240px 0px;
+  color: #FFF;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.banner p {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
